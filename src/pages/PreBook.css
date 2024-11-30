@@ -1,0 +1,68 @@
+/* PreBook.css */
+
+.prebook-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prebook-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .prebook-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .prebook-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .prebook-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .prebook-form input,
+  .prebook-form select,
+  .prebook-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .prebook-form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .prebook-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f9ed32;
+    color: #000;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .prebook-form button:hover {
+    background-color: #fff225;
+  }
+  
+  .payment-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
